@@ -1,3 +1,5 @@
+require 'TemperatureConverter'
+
 RSpec.describe TemperatureConverter do
     describe ".celsius_to_fahrenheit" do
       it "correctly converts 0°C to 32°F" do

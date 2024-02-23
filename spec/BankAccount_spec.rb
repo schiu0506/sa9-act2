@@ -1,3 +1,5 @@
+require 'BankAccount'
+
 RSpec.describe BankAccount do
     describe "#deposit" do
       it "increases the balance by the deposit amount" do
